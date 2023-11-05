@@ -320,9 +320,11 @@ i {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    padding-bottom: 50px;
 }
 
 .sec_2_card {
+    background-color: white;
     width: 350px;
     padding: 0px 20px 20px 20px;
     box-shadow: 0px 0px 50px rgb(211, 208, 208);
@@ -513,7 +515,8 @@ i {
     flex-wrap: wrap;
 }
 .company-container>img{
-    width: 180px;
+    width: 188px;
+
     height: 70px;
 }
 
@@ -581,7 +584,7 @@ i {
 
     /* section 3 */
     .company-container>img{
-        width: 160px;
+        width: 150px;
     }
 
 
