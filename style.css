@@ -79,11 +79,15 @@ i {
     margin: auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-top: 100px;
 }
 
 #hero-content {
     flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 #registration-form {
@@ -199,7 +203,6 @@ i {
 /* section 1 card */
 
 #registration-form {
-    height: 496px;
     box-shadow: 0px 0px 50px rgb(231, 69, 185);
     display: flex;
     flex-direction: column;
@@ -224,13 +227,11 @@ i {
     font-weight: 400;
 }
 
-
 #rf_img {
-    width: 366px;
+    width: 100%;
 }
 
-.inp {
-    width: 95%;
+.inp{
     background-color: #e8e8e8;
     margin: 10px;
     padding: 10px;
@@ -242,11 +243,15 @@ i {
     background-color: transparent;
 }
 
+#rf_lower{
+    width: 95%;
+    margin: auto;
+}
+
 #rf_lower>button {
-    width: 366px;
+    width: 100%;
     color: white;
     padding: 14px 6px 14px 16px;
-    gap: 2px;
     border-radius: 8px;
     background: linear-gradient(277deg, #992FED 0%, #2F80ED 100%);
     border: none;
@@ -270,14 +275,12 @@ i {
     font-weight: 400;
 }
 
-
-
 /* section 2 */
-
-
 
 #section-2 {
     width: 100vw;
+    background-color: #ecf8ff;
+    margin-top: 50px;
 }
 
 #sec-2-container {
@@ -287,8 +290,8 @@ i {
 
 #sec-2-head {
     text-align: center;
-    margin-top: 80px;
-    margin-bottom: 40px;
+    padding: 80px;
+    padding-bottom: 40px;
 }
 
 #sec-2-head>h4 {
@@ -320,9 +323,8 @@ i {
 }
 
 .sec_2_card {
+    width: 350px;
     padding: 0px 20px 20px 20px;
-    width: 400px;
-    height: 500px;
     box-shadow: 0px 0px 50px rgb(211, 208, 208);
     display: flex;
     flex-direction: column;
@@ -335,17 +337,18 @@ i {
 #sec-2-card-head {
     background-color: #2f80ed;
     width: fit-content;
-    padding: 3px 10px;
+    padding: 5px 10px 0px 10px;
     color: #FFF;
-    font-size: 14px;
+    font-size: 10px;
     font-style: italic;
-    font-weight: lighter;
+    font-weight: 400;
     text-transform: uppercase;
-    border-radius: 10px;
+    border-radius: 13px;
+    text-align: justify;
 }
 
 .top {
-    width: 250px;
+    width: fit-content;
 }
 
 .top>h3 {
@@ -353,6 +356,7 @@ i {
 }
 
 .top>p {
+    width: fit-content;
     color: #565656;
     font-size: 11px;
     font-style: normal;
@@ -361,7 +365,6 @@ i {
 }
 
 .promise {
-    width: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -389,7 +392,7 @@ i {
 
 
 .middle {
-    width: 350px;
+    width: 300px;
 }
 
 .first,
@@ -411,7 +414,7 @@ i {
 }
 
 .last {
-    width: 350px;
+    width: 300px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -421,7 +424,7 @@ i {
     border: 2px solid #5f9df1;
     color: #5f9df1;
     background-color: transparent;
-    padding: 10px 35px;
+    padding: 10px 20px;
     border-radius: 10px;
 }
 
@@ -429,7 +432,7 @@ i {
     color: white;
     background-color: #2f80ed;
     border: none;
-    padding: 13px 35px;
+    padding: 13px 20px;
     border-radius: 10px;
 }
 
@@ -510,7 +513,7 @@ i {
     flex-wrap: wrap;
 }
 .company-container>img{
-    width: 188px;
+    width: 180px;
     height: 70px;
 }
 
@@ -556,23 +559,31 @@ i {
         margin:5px 0px 5px 0px;
     }
 
-
     /* hero section */
-
     #hero-section{
         flex-direction: column;
+        justify-content: space-between;
         align-items: center;
         width: 85vw;
         margin: auto;
     }
 
     #registration-form{
-        margin-top: 100px;
+        margin-top: 50px;
     }
 
-
     /* section 2 */
+    
     .card2{
         margin: 50px 0px 50px 0px;
     }
+
+
+    /* section 3 */
+    .company-container>img{
+        width: 160px;
+    }
+
+
+
 }
